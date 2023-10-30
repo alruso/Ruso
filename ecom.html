@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title>Project2</title> 
+     <link rel="stylesheet" href="style.css"> 
+ </head> 
+ <body> 
+  
+     <div class="size"> 
+         <h1>ruso</h1> 
+         <div class="nav "> 
+  
+             <a href="#">HOME</a> 
+             <a href="#">ABOUT</a> 
+             <a href="#">CONTACT</a> 
+             <a href="index.html">LOGIN</a> 
+             <a href="form.html">REGISTER</a> 
+  
+         </div> 
+     </div> 
+     <div class="menu"> 
+         <div class="menu-list"></div> 
+         <div class="menu-list"></div> 
+         <div class="menu-list"></div> 
+     </div> 
+  
+     <div class="content"> 
+         <p>my first website in usefull information mostly cover in the webiste.</p> 
+         <span>this only b.sc.computer science student s-2.</span> 
+     </div> 
+         <div class="details"> 
+                 <h2>Name<span style="padding-left: 13px;">: </span> ruso</h2> 
+                 <h2>Age<span style="padding-left: 32px;">: </span> 19</h2> 
+                 <h2>learn from naan mudhavalan</h2> 
+         </div> 
+  
+  
+  
+ </body> 
+ <script> 
+     let menu = document.querySelector(".menu") 
+     let nav = document.querySelector("div .nav") 
+     menu.addEventListener('click',() => { 
+         nav.classList.toggle('showcase') 
+     }) 
+ </script>    
+ </html>
